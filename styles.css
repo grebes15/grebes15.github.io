@@ -55,3 +55,10 @@ footer {
 .Compare {
 	font-weight: bolder;
 }
+
+@media screen and (max-width: 1000px) {
+	#USOpenTennis {
+		width: 100%;
+		height: auto;
+	}
+}
