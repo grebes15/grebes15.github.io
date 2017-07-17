@@ -1,3 +1,66 @@
 body {
-	background: blue;
+	background: white;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#First-P {
+	font-family: courier;
+}
+
+#Second-P {
+	margin: 30px;
+	border: 10px solid #dddddd;
+}
+
+a:visited {
+	color: pink;
+}
+
+ol {
+	background-image: url("tennis-ball-sport-yellow-66323.jpeg");
+	font-weight: bold;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	color: white;
+
+}
+footer {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	text-align: center;
+
+}
+
+.TopTen {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	text-align: center;
+}
+
+.Compare {
+	font-weight: bolder;
+}
+
+@media screen and (max-width: 1000px) {
+	#USOpenTennis {
+		width: 100%;
+		height: auto;
+	}
 }
